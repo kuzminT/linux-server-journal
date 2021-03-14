@@ -22,4 +22,10 @@ management
 
 - [Implementing Worker Applications with RabbitMQ + Node](https://medium.com/@otavioguastamacchia/implementing-worker-applications-with-rabbitmq-node-1a8b7ab98e47)
 - [Work Queues (using the Pika Python client)](https://www.rabbitmq.com/tutorials/tutorial-two-python.html)
+
+### Clear queues
+        
+         rabbitmqctl purge_queue translations
+
+
         
