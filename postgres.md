@@ -59,6 +59,7 @@ You can see the sequences in your database using the `\ds` command in psql. Upda
 
     # Show size of table
     SELECT pg_relation_size('accounts');
+    SELECT pg_size_pretty(pg_total_relation_size('accounts'));
 
     # Show size of table indexes
     SELECT pg_size_pretty (pg_indexes_size('actor'));
